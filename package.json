@@ -1,0 +1,58 @@
+{
+  "name": "laborequi",
+  "description": "React components to add reveal animations using Intersection Observer API and CSS Animations.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "MyraWehner",
+  "keywords": [
+    "react",
+    "reveal",
+    "react-reveal",
+    "scroll",
+    "fuga",
+    "et",
+    "sint",
+    "qui",
+    "css-in-js",
+    "in"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CliftonMurazik/laborequi.git"
+  },
+  "main": "dist/index.js",
+  "module": "dist/react-reveal.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/jest": "^26.0.13",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-is": "^16.7.1",
+    "husky": "^4.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tsdx": "^0.13.3",
+    "tslib": "^2.0.1",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "classnames": "^2.2.6",
+    "react-intersection-observer": "^8.28.4",
+    "react-is": "^16.13.1"
+  }
+}
